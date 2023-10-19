@@ -1,0 +1,15 @@
+matrix=[[10,5,8,12,7],
+        [3,15,4,9,12],
+        [6,1,20,17,11],
+        [13,14,16,18,19],
+        [22,25,21,24,23]]
+highest_reputation = -1
+highest_reputation==(0,0)
+for i in range(5):
+    for j in range(5):
+        if matrix[i][j] > highest_reputation:
+            highest_reputation = matrix[i][j]
+            highest_reputation_coords = (i, j)
+print(f"The element with the highest reputation is {highest_reputation} at coordinates {highest_reputation_coords}")
+            
+        
